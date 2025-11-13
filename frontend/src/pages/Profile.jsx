@@ -12,7 +12,7 @@ import { Input } from '../components/ui/input';
 import { useToast } from '../hooks/use-toast';
 import { Label } from '../components/ui/label';
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://grilmelt-burger.onrender.com";
 const API_URL = `${BASE_URL}/api`;
 
 const Profile = () => {

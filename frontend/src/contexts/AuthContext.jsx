@@ -4,7 +4,7 @@ import axios from 'axios';
 const AuthContext = createContext();
 
 const USER_STORAGE_KEY = 'burger_shop_user';
-const API_URL = 'http://localhost:3000/api/users';
+const API_URL = 'https://grilmelt-burger.onrender.com/api/users';
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);

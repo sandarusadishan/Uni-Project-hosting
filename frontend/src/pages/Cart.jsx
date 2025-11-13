@@ -21,7 +21,7 @@ import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 
 const DELIVERY_FEE = 350.0;
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'https://grilmelt-burger.onrender.com';
 const API_URL = `${BASE_URL}/api`;
 const LOGO_URL = `/logo.png`; // Use a relative path
 const Cart = () => {

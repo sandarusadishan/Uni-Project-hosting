@@ -8,7 +8,7 @@ import { Package, Truck, CheckCircle, Clock, ArrowLeft, Phone, ChevronDown } fro
 import Navbar from '../components/Navbar'; 
 import { useAuth } from '../contexts/AuthContext';
 
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'https://grilmelt-burger.onrender.com';
 const API_URL = `${BASE_URL}/api`;
 const ADMIN_PHONE = '077 123 4567'; // 🎯 Admin contact number
 

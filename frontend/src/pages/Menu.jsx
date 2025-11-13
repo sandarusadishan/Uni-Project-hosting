@@ -18,7 +18,7 @@ import {
 } from '../components/ui/select';
 
 // 🎯 Backend Constants
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://grilmelt-burger.onrender.com";
 const API_URL = `${BASE_URL}/api`;
 
 const containerVariants = {

@@ -54,7 +54,7 @@ const ChatWidget = ({ isOpen, socket }) => {
       try {
         // Use the just-updated message history for the request.
         const history = updatedMessages;
-        const res = await fetch('http://localhost:3000/api/chat', {
+        const res = await fetch('https://grilmelt-burger.onrender.com/api/chat', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ message: newMessage, history: history })

@@ -32,7 +32,7 @@ const DailyInstantReward = () => {
   const [result, setResult] = useState(null); 
   const [loading, setLoading] = useState(true); 
   
-  const API_URL = 'http://localhost:3000/api/rewards'; // 💡 Backend API Endpoint
+  const API_URL = 'https://grilmelt-burger.onrender.com/api/rewards'; // 💡 Backend API Endpoint
 
   // 1. Backend වෙතින් දෛනික ක්‍රීඩා තත්ත්වය ලබා ගැනීම (Limit Check)
   useEffect(() => {
